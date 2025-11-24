@@ -10,5 +10,5 @@ export default defineConfig(({ mode }) => ({
   plugins: [react()],
   // Use root base in dev so images load under `npm run dev`
   base: mode === 'production' ? PROD_BASE : '/',
-  build: { outDir: 'docs' }
+  build: { outDir: 'dist' }
 }))
