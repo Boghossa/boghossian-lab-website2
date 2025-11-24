@@ -20,7 +20,7 @@ export default function People() {
           </div>
         </div>
 
-        <div className="prose prose-invert max-w-none">
+        <div className="prose prose-invert max-w-none text-justify">
           <p dangerouslySetInnerHTML={{__html: `<strong>Ardemis A. Boghossian</strong> obtained her B.S.E. in Chemical Engineering from the University of Michigan. She received her Ph.D. in Chemical Engineering from the Massachusetts Institute of Technology (MIT) under the supervision of Prof. Michael S. Strano. Her thesis focused on single-walled carbon nanotube (SWCNT) optical characterizations and applications. She then pursued her postdoctoral studies at the California Institute of Technology (Caltech) under the direction of 2018 Chemistry Nobel Laureate, Frances H. Arnold. Her work focused on heterologous protein expression and protein bioengineering. She began her independent career as an Assistant Professor at the Ecole Polytechnique Fédérale de Lausanne (EPFL) in Switzerland in 2015, where she founded the Laboratory of NanoBiotechnology (LNB). Her laboratory specializes in technologies that lie at the interface of bioengineering and nanomaterials science, focusing on applications in optical sensing and bioenergy.`}} />
         </div>
 
@@ -102,6 +102,12 @@ export default function People() {
               <p>(left to right) Merve Özel (Master), Nils Schürgers (postdoc) (top), Shang-Jung Wu (PhD) (bottom), Justyna Kupis-Rozmysłowicz (postdoc), Alessandra Antonucci (PhD), Fara Malala Raharisolo (administrative assistant), Vitalijs Zubkovs (PhD), Esra Ahunbay (Master) (top), Benjamin Lambert (PhD) (bottom), Ardemis Boghossian (PI).</p>
             </figcaption>
           </figure>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-bold">Laboratory of NanoBiotechnology (LNB)</h2>
+          <div className="h-3" />
+          <p>EPFL SB ISIC LNB, Station 6, 1015 Lausanne, Switzerland</p>
         </div>
 
       </div>

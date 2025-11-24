@@ -11,3 +11,11 @@ a { @apply text-cyan-400; }
 .caption { @apply text-xs text-neutral-400 mt-2; }
 .figure { @apply text-center; }
 .figure img, .figure video { @apply rounded-2xl shadow-lg; }
+/* Header/nav vertical alignment helper (tune margin-top in Layout.jsx as needed) */
+.header-nav-align { margin-top: 1.25rem; }
+
+/* Figure/video sizing */
+.figure { display: block; }
+.figure video { max-width: 100%; height: auto; display: block; }
+.caption { max-width: 100%; }
+
