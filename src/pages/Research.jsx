@@ -22,6 +22,11 @@ export default function Research() {
       href: "https://actu.epfl.ch/news/directed-evolution-builds-nanoparticles-3/",
       alt: "Directed evolution builds nanoparticles",
     },
+    {
+      src: `${import.meta.env.BASE_URL}ResearchNews_5.png`,
+      href: "https://cbherald.com/bioengineers-reprogram-bacteria-to-build-their-own-electron-shuttling-network/",
+      alt: "Reprograming Bacteria to Build Electronic Networks",
+    },
   ];
 
   const [index, setIndex] = React.useState(0);
